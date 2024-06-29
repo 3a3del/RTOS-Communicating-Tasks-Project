@@ -18,6 +18,12 @@ The project involves four tasks that communicate via a queue with a fixed size:
 - **Sender Tasks**: Three sender tasks (two with the same priority and one with higher priority) send messages containing the current system time in ticks after sleeping for a random period. The tasks handle message blocking and transmission, keeping counters for both.
 - **Receiver Task**: One receiver task that sleeps for a fixed period, checks the queue for messages, and processes one message at a time, incrementing a counter for received messages.
 - **Timers and Semaphores**: Timers control the sleep/wake cycles of the tasks, with semaphores used to unblock tasks.
+  
+### The workflow of the project                                                            
+![Class Diagram](https://github.com/adouldoula/RTOS-Communicating-Tasks-Project/blob/main/Flowchart%20of%20the%20workflow.png)                                        
+  
+### Message Sequences                                                            
+![Class Diagram](https://github.com/adouldoula/RTOS-Communicating-Tasks-Project/blob/main/Message%20Sequence.png)   
 
 ### Reset Function
 
