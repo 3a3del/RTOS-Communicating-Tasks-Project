@@ -1,8 +1,8 @@
 # RTOS Communicating Tasks Project
 
 ## Overview
-
-This project is part of the ELC 2080 course and focuses on implementing Real-Time Operating System (RTOS) concepts using FreeRTOS. The main objective is to apply knowledge from the embedded programming course and gain hands-on experience with RTOS concepts such as tasks, timers, queues, and semaphores.
+                                                 
+This project is part of the ELC 2080 course and focuses on implementing Real-Time Operating System (RTOS) concepts using `FreeRTOS`. The main objective is to apply knowledge from the embedded programming course and gain hands-on experience with RTOS concepts such as tasks, timers, queues, and semaphores.
 
 ## Objectives
 
@@ -44,7 +44,7 @@ The documentation should include:
 
 ## Important Notes
 
-- You can check out the specifications of the project in details in the 'RTOS_Prjct - 2024'                    
+- You can check out the specifications of the project in details in the `RTOS_Prjct - 2024`                    
 - You will gain practical experience in implementing RTOS concepts and handling inter-task communication and synchronization in embedded systems.                                                                                                    
   
   
